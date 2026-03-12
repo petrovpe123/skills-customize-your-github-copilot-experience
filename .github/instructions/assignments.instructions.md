@@ -24,4 +24,4 @@ The section headers should reflect the structure in the template, including the 
    - In Requirements, use bullet points to list the expected outcomes or features. Be specific and measurable
    - Provide example input/output in code blocks if helpful.
 
-Do not include extra sections unless explicitly specified. Do not use emojis at all!
+Do not include extra sections unless explicitly specified.
