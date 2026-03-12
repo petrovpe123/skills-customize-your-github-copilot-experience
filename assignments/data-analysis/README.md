@@ -2,7 +2,7 @@
 
 ## 🎯 Objective
 
-In this assignment, students will use Python to examine a real dataset and communicate what they learn from it. They will work with the provided data file, explore the values, create charts, and explain the patterns they find.
+In this assignment, students will use Python to explore a dataset and explain what they learn from it. They will load the provided CSV file, review the data, create charts, and summarize the patterns they find.
 
 ## 📝 Tasks
 
@@ -18,6 +18,15 @@ Completed program should:
 - Display the first 5 rows of the dataset
 - Show basic summary statistics for the numeric columns such as `age` and `score`
 
+Example output:
+
+```text
+	name  age  score
+0  Alice   17     88
+1    Bob   16     92
+2 Charlie   17     85
+```
+
 
 ### 🛠️ Visualize and Explain the Results
 
@@ -30,3 +39,10 @@ Completed program should:
 - Generate at least two different types of plots using the dataset
 - Describe at least two insights or trends found in the data
 - Save the generated plots as image files such as `histogram.png` or `scatter.png`
+
+Example ideas:
+
+```text
+- A histogram of student scores
+- A scatter plot of age vs. score
+```
