@@ -1,84 +1,3 @@
-  "course": {
-    "title": "Computer Science",
-    "school": "Mergington High School",
-    "description": "Introduction to programming and computer science"
-  },
-  "assignments": [
-    {
-      "id": "python-basics",
-      "title": "Python Basics",
-      "description": "Variables, data types, conditionals, and loops",
-      "path": "assignments/python-basics",
-      "dueDate": "2026-01-26",
-      "attachments": [
-        {
-          "name": "Starter Code",
-          "file": "starter-code.py",
-          "type": "python"
-        }
-      ]
-    },
-    {
-      "id": "games-in-python",
-      "title": "Games in Python",
-      "description": "Creating games using Python",
-      "path": "assignments/games-in-python",
-      "dueDate": "2026-02-10"
-    },
-    {
-      "id": "python-classes",
-      "title": "Python Classes",
-      "description": "Defining and using classes in Python",
-      "path": "assignments/python-classes",
-      "dueDate": "2026-02-20",
-      "attachments": [
-        {
-          "name": "Starter Code",
-          "file": "starter-code.py",
-          "type": "python"
-        }
-      ]
-    },
-    {
-      "id": "data-analysis",
-      "title": "Data Analysis",
-      "description": "Basics of data analysis: loading, exploring, and visualizing data in Python.",
-      "path": "assignments/data-analysis",
-      "dueDate": "2026-03-26",
-      "attachments": [
-        {
-          "name": "Starter Code",
-          "file": "starter-code.py",
-          "type": "python"
-        },
-        {
-          "name": "Sample Dataset",
-          "file": "data.csv",
-          "type": "csv"
-        }
-      ]
-    },
-    {
-      "id": "fastapi-rest-apis",
-      "title": "Building REST APIs with FastAPI",
-      "description": "Build a simple REST API with FastAPI using JSON responses and request validation.",
-      "path": "assignments/fastapi-rest-apis",
-      "dueDate": "2026-03-19",
-      "attachments": [
-        {
-          "name": "Starter App",
-          "file": "main.py",
-          "type": "python"
-        },
-        {
-          "name": "Requirements File",
-          "file": "requirements.txt",
-          "type": "default"
-        }
-      ]
-    }
-  ]
-}
 {
   "course": {
     "title": "Computer Science",
@@ -91,7 +10,21 @@
       "title": "Python Basics",
       "description": "Variables, data types, conditionals, and loops",
       "path": "assignments/python-basics",
-      "dueDate": "2026-01-26",
+      "dueDate": "2025-07-15",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
+    },
+    {
+      "id": "fastapi-rest-apis",
+      "title": "FastAPI REST APIs",
+      "description": "Build a small REST API with FastAPI using routes, request bodies, and JSON responses.",
+      "path": "assignments/fastapi-rest-apis",
+      "dueDate": "2026-03-19",
       "attachments": [
         {
           "name": "Starter Code",
@@ -105,14 +38,14 @@
       "title": "Games in Python",
       "description": "Creating games using Python",
       "path": "assignments/games-in-python",
-      "dueDate": "2026-02-10"
+      "dueDate": "2025-09-01"
     },
     {
       "id": "python-classes",
       "title": "Python Classes",
       "description": "Defining and using classes in Python",
       "path": "assignments/python-classes",
-      "dueDate": "2026-02-20",
+      "dueDate": "2025-08-05",
       "attachments": [
         {
           "name": "Starter Code",
@@ -120,13 +53,13 @@
           "type": "python"
         }
       ]
-    },
-    {
+    }
+    ,{
       "id": "data-analysis",
       "title": "Data Analysis",
       "description": "Basics of data analysis: loading, exploring, and visualizing data in Python.",
       "path": "assignments/data-analysis",
-      "dueDate": "2026-03-26",
+      "dueDate": "2025-07-29",
       "attachments": [
         {
           "name": "Starter Code",

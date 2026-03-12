@@ -1,57 +1,35 @@
-# 📘 Assignment: Building REST APIs with FastAPI
+# 📘 Assignment: FastAPI REST APIs
 
 ## 🎯 Objective
 
-Learn how to build a simple REST API with FastAPI by creating endpoints, validating request data, and returning JSON responses.
+Build a small REST API with FastAPI and practice creating routes, handling request data, and returning JSON responses.
 
 ## 📝 Tasks
 
-### 🛠️	Create the FastAPI Application
+### 🛠️ Create Basic API Endpoints
 
 #### Description
-Set up a FastAPI project that can manage a small collection of books. Create the application object, define a data model for incoming book data, and add a home route that confirms the API is running.
+Use the provided `starter-code.py` file to create a FastAPI application with a few basic endpoints. Start by building routes that confirm the API is running and return a list of sample tasks.
 
 #### Requirements
 Completed program should:
 
-- Create a FastAPI app instance named `app`
-- Define a `Book` model with `title`, `author`, and `year` fields
-- Add a `GET /` endpoint that returns a JSON welcome message
-- Store book data in a Python list for this assignment
+- Create a FastAPI app instance
+- Add a `GET /` route that returns a welcome message as JSON
+- Add a `GET /tasks` route that returns a list of task items
+- Return valid JSON responses from each route
 
 
-### 🛠️	Build and Test REST Endpoints
+### 🛠️ Add Create and Update Features
 
 #### Description
-Add endpoints that let users view all books, add a new book, and retrieve a single book by its index in the list. Test the API to confirm it returns the expected JSON responses.
+Expand the API so users can add new tasks and update the completion status of an existing task. Store the task data in a Python list for this assignment.
 
 #### Requirements
 Completed program should:
 
-- Add a `GET /books` endpoint that returns all books
-- Add a `POST /books` endpoint that accepts book data and saves it
-- Add a `GET /books/{book_id}` endpoint that returns one book or an error message if it does not exist
-- Return JSON responses that clearly show the stored data
-- Test at least one successful request for each endpoint
-
-Example request body:
-
-```json
-{
-  "title": "Clean Code",
-  "author": "Robert C. Martin",
-  "year": 2008
-}
-```
-
-Example response from `GET /books`:
-
-```json
-[
-  {
-    "title": "Clean Code",
-    "author": "Robert C. Martin",
-    "year": 2008
-  }
-]
-```
+- Add a `POST /tasks` route that accepts task data from the request body
+- Assign a unique `id` to each new task
+- Add a `PUT /tasks/{task_id}` route that updates the `completed` value for a task
+- Return a clear error message when a task with the given `id` does not exist
+- Test the API in the browser docs or with a tool such as Postman
