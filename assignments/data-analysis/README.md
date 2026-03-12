@@ -2,31 +2,31 @@
 
 ## 🎯 Objective
 
-Students will learn the basics of data analysis using Python. They will load, explore, and analyze a dataset to extract meaningful insights.
+In this assignment, students will use Python to examine a real dataset and communicate what they learn from it. They will work with the provided data file, explore the values, create charts, and explain the patterns they find.
 
 ## 📝 Tasks
 
-### 🛠️ Data Loading and Exploration
+### 🛠️ Explore the Dataset
 
 #### Description
-Load a provided CSV dataset and perform basic exploration to understand its structure and contents.
+Use the provided `starter-code.py` file to load `data.csv` and inspect the dataset. Start by understanding the structure of the data before moving on to any analysis.
 
 #### Requirements
 Completed program should:
 
-- Load a CSV file using Python (e.g., with pandas)
+- Load `data.csv` using Python
 - Display the first 5 rows of the dataset
-- Show summary statistics (mean, median, etc.) for numeric columns
+- Show basic summary statistics for the numeric columns such as `age` and `score`
 
 
-### 🛠️ Data Visualization and Insights
+### 🛠️ Visualize and Explain the Results
 
 #### Description
-Create visualizations to help understand the data and summarize key findings.
+Create charts that help explain the dataset and write a short summary of the results. Focus on what the visualizations show about the students in the file.
 
 #### Requirements
 Completed program should:
 
-- Generate at least two different types of plots (e.g., histogram, scatter plot)
-- Identify and describe at least two insights or trends from the data
-- Save the plots as image files
+- Generate at least two different types of plots using the dataset
+- Describe at least two insights or trends found in the data
+- Save the generated plots as image files such as `histogram.png` or `scatter.png`
